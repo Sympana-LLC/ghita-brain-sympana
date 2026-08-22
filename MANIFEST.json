@@ -1,0 +1,20 @@
+{
+  "id": "ghita-brain-sympana",
+  "name": "GHIȚĂ Brain Sympana",
+  "version": "1.0.0",
+  "kind": "ghita.memory-pack",
+  "description": "Installable GHIȚĂ Brain pack: Codex wrap contracts, Conductor pointers, and shared knowledge references. Private call logs and personal HOT facts stay on the host.",
+  "repository": "Sympana-LLC/ghita-brain-sympana",
+  "connectsTo": "GHIȚĂ OS Settings → Connections → GHIȚĂ Brain memory",
+  "layers": {
+    "local": "Created on the installing computer (~/.ghita/data/memory).",
+    "pack": "This repository. References only — no secrets, no private transcripts.",
+    "host": "Optional private corpora (call logs, Hormozi library) stay off git and are linked from references/."
+  },
+  "references": [
+    "hormozi",
+    "call-logs",
+    "conductor",
+    "codex-contracts"
+  ]
+}
