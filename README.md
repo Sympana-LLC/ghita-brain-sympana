@@ -26,3 +26,7 @@ Anyone can replicate this. Keys never leave the installing machine. The pack is 
 - Personal HOT.md from a specific operator
 
 Those stay on the host. `references/` tells GHIȚĂ they exist and how to ask for them.
+
+## Documentation upkeep
+
+Agents must follow the [README maintenance requirements in AGENTS.md](AGENTS.md#readme-maintenance-required-for-agents). Review this README for every task and update affected documentation in the same change. Document verified setup, configuration, behavior, integrations, deployment, and limitations; keep secrets and private data out of Git.
